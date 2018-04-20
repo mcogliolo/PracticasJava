@@ -20,21 +20,21 @@ public class Ejercicio7 {
 		int respuesta = 1;
 		
 		while (respuesta == 1) {		
-		Scanner radio = new Scanner(System.in);
-		System.out.print("Escriba el radio del perimetro a calcular: ");
-		double rad = radio.nextDouble();
+			Scanner radio = new Scanner(System.in);
+			System.out.print("Escriba el radio del perimetro a calcular: ");
+			double rad = radio.nextDouble();
 		
-		double perCirc = 2* Math.PI * rad;
+			double perCirc = 2* Math.PI * rad;
 		
-		System.out.println("El perimetro de la cicunferencia con radio de "
-				+ rad + " es de: " + perCirc);	
+			System.out.println("El perimetro de la cicunferencia con radio de "
+					+ rad + " es de: " + perCirc);	
 		
-		System.out.print(" ");
+			System.out.print(" ");
 		
-		Scanner ask = new Scanner(System.in);
-		System.out.print("Desea continuar calculando un perimetro 1/2: ");
-		int respuesta2 = ask.nextInt();
-		respuesta = respuesta2;
+			Scanner ask = new Scanner(System.in);
+			System.out.print("Desea continuar calculando un perimetro 1/2: ");
+			int respuesta2 = ask.nextInt();
+			respuesta = respuesta2;
 		
 		}		
 		System.out.print("MUCHAS GRACIAS");		
